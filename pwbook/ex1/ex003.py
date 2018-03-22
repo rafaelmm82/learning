@@ -1,7 +1,7 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 ##
-# A proggram that calculate an area of a room with measures given by user
+# A program that calculate an area of a room with measures given by user
 # @author: rafael magalhaes
 
 

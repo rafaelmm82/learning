@@ -1,8 +1,8 @@
 # learning
-Learning - Agregates the coding exercises from courses, books, tutorials, documentation, etc.
+Learning - Aggregates only my own codings of exercises from courses, books, tutorials, documentation, etc.
 
-A list of each resource and description follow the directory struture:
+A list of each resource and their description following the directory structure:
 
-* __pwbook__ - Solution codes of *"The Python Workbook"* to check and help my undergrad students to learn python by exercises.
-* __mlaz__ - Exercises codes to the Udemy course Machine Learning A to Z.
-* __datacamp__ - Final projects of each course grom datacamp.com site
+* __pwbook__ - Solution codes of "The Python Workbook" to check and help my undergrad students to learning python by exercises.
+* __mlaz__ - Exercises codes of the Udemy course on "Machine Learning A to Z".
+* __datacamp__ - Final projects of each course from datacamp.com site
