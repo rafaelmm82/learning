@@ -7,7 +7,8 @@ datascience using python, course:
 This project concerns on simulate a random walk through the floors stages on
 Empire State Building, by rolling a virtual dice
 
-@codedby: rafael magalhaes (github @rafaelmm82)
+code conducted by: datacamp
+codede by: rafael magalhaes (github @rafaelmm82)
 """
 
 # Importing the essentials
