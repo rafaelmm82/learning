@@ -1,0 +1,22 @@
+A)
+- Exibir domínio do problema
+- apresentar a rede (arquitetura funçoes etc...)
+- realizar os experimentos (9) de cada algoritmo
+- obter as curvas de treinamento e validação MSE
+- apresentar prints dos resultados
+- comprar numéricamente os resultados (média e variância de possível)
+- tentar exibir algo gráfico sobre a classificação
+- comentários descritivos (subjetivos) do comportamento dos algorítimos
+
+- curiosidade, resultado da rede dada pelo haykin (equação da função)
+
+B)
+- Exibir domínio do problema
+- apresentar a rede (arquitetura funçoes etc...)
+- realizar os experimentos (9) de cada algoritmo
+- obter as curvas de treinamento e validação MSE
+- apresentar curvas de exibição (plot)
+- comprar numéricamente os resultados (média e variância de possível)
+- comentários descritivos (subjetivos) do comportamento dos algorítimos
+- isso é uma regressão as métricas podem variar
+
