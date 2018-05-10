@@ -38,15 +38,15 @@ import matplotlib.pyplot as plt
 (data_in, data_out) = dataset_q03_a()
 
 net_arc = [2, 2, 1]
-net_func = ['line', 'sigm', 'sigm']
+net_func = ['line', 'relu', 'sigm']
 b = 1
 #learn_rate = 0.05
 alfa = 0.5
-num_epochsd = 10000
+num_epochsd = 5000
 num_epochsm = 10000
 
 total_experiments = 9
-lrv = np.array([0.05, 0.1, 0.3, 0.6, 1.0, 1.5])
+lrv = np.array([0.3])
 total_lr = len(lrv)
 
 # The training and validation errors vectors
@@ -98,13 +98,13 @@ for lr in range(total_lr):
 
 
 for i in range(9):
-    plot_dataset_q03_a(data_in, data_pred_d[5][i], data_out)
+    plot_dataset_q03_a(data_in, data_pred_d[0][i], data_out)
 
 # Ploting training and validation error history
 plot_error_total_6(tetotal_delta, lrv)
 
 # Ploting the means of training and validation error
-plot_the_means_1(tetotal_delta[5])
+plot_the_means_1(tetotal_delta[0])
 
 # Ploting the Model View in 2D
 plot_model_viewer_xor(net_arc, net_func, wd, b)

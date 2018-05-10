@@ -129,7 +129,7 @@ def deriv_activation_func(func_type, z):
         return (a*b*(1-(np.tanh(b*z)**2)))
 
     if func_type == 'relu':
-        return np.max(np.array([0, z]))
+        return (1 if z >= 0 else 0)
 
     if func_type == 'step':
         return (1 if z >= 0.5 else 0)
