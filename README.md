@@ -7,3 +7,4 @@ A list of each resource and their description following the directory structure:
 * __mlaz__ - Exercises codes of the Udemy course on "Machine Learning A to Z".
 * __datacamp__ - Final projects of each course from datacamp.com site
 * __DLclass__ - assignments, projects and exercises of Deep Learning Classroom
+* __ThinkStats2__ - Self study exercises from Allen B. Downey boot Think Stats 2Ed
