@@ -63,6 +63,10 @@ urlpatters = [
 
 __Part 2 - Fundamentals__
 
+06/03/2019 - Models, Views, Templates, Testing, and Admin
+
+
+
 __Part 3 - Advanced Concepts__
 
 __Part 2 - Authentication__
