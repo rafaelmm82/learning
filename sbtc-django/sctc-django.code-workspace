@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"python.pythonPath": "C:\\Python\\scbt-django\\Scripts\\python.exe"
+	}
+}
