@@ -65,7 +65,7 @@ __Part 2 - Fundamentals__
 
 06/03/2019 - Models, Views, Templates, Testing, and Admin
 
-
+Realy a lot of new and exciting things :) started with project requiremets, uml diagrams, models, migration of database, the API to dealing with models. Unit tests (need to check it more). Using templates to improve the views, static files and also the well know Bootstrap. To finish the Django Admin app and how to use it.
 
 __Part 3 - Advanced Concepts__
 
