@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"git.ignoreLimitWarning": true,
-		"python.pythonPath": "C:\\Python\\scbt-django\\Scripts\\python.exe"
+		"python.pythonPath": "C:\\Python\\scbt-django\\Scripts\\python.exe",
+		"python.linting.pylintArgs": ["--load-plugins=pylint_django",]
 	}
 }

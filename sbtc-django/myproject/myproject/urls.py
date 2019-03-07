@@ -20,6 +20,5 @@ from boards import views
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
-    url(r'^index.html', views.home, name='index'),
     url(r'^admin/', admin.site.urls),
 ]
