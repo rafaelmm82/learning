@@ -11,7 +11,7 @@ This repo is to tracking the progress on my efforts to learning something about 
 The Tutorials Seires has sevens (7) parts, named:
 
 - [x] Part 1 - Getting Started
-- [ ] Part 2 - Fundamentals
+- [x] Part 2 - Fundamentals
 - [ ] Part 3 - Advanced Concepts
 - [ ] Part 2 - Authentication
 - [ ] Part 5 - Django ORM
