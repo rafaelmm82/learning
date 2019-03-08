@@ -1,6 +1,3 @@
----
-Just a test README.md file
----
 
 # SBTC - A Complete Beginner's Guide to Django
 
@@ -72,6 +69,61 @@ Realy a lot of new and exciting things :) started with project requiremets, uml 
 __Part 3 - Advanced Concepts__
 
 Started in 07/03/2019 - URLs and Forms
+
+A realy import thing here is the importance given to the test development practice. Every peace of new code on views and url scripts the author make a correlated test. The URL patterns was also detailed during this third part of the tutorial.
+
+It also talked about Reusable Templates
+
+Example of some urlpatters and regex (much more one: [URL Patterns](https://simpleisbetterthancomplex.com/references/2016/10/10/url-patterns.html))
+
+
+| |**Primary Key AutoField**
+-----|-------
+Regex | ```(?P<pk>\d+)```
+Example | ```url(r'^questions/(?P<pk>\d+)/$', views.question, name='question')```
+Valid URL | ```/questions/934/```
+Captures | ```{'pk': '934'}```
+
+
+| |**Slug Field**
+-----|-------
+Regex | ```(?P<slug>[-\w]+)```
+Example | ```url(r'^posts/(?P<slug>[-\w]+)/$', views.post, name='post')```
+Valid URL | ```/posts/hello-world/```
+Captures | ```{'slug': 'hello-world'}```
+
+
+| |**Slug Field with Primary Key**
+-----|-------
+Regex | ```(?P<slug>[-\w]+)-(?P<pk>\d+)```
+Example | ```url(r'^blog/(?P<slug>[-\w]+)-(?P<pk>\d+)/$', views.blog_post, name='blog_post')```
+Valid URL | ```/blog/hello-world-159/```
+Captures | ```{'slug': 'hello-world', 'pk': '159'}```
+
+
+| |**Django User Username**
+-----|-------
+Regex | ```(?P<username>[\w.@+-]+)```
+Example | ```url(r'^profile/(?P<username>[\w.@+-]+)/$', views.user_profile, name='user_profile')```
+Valid URL | ```/profile/vitorfs/```
+Captures | ```{'username': 'vitorfs'}```
+
+
+| |**Year**
+-----|-------
+Regex | ```(?P<year>[0-9]{4})```
+Example | ```url(r'^articles/(?P<year>[0-9]{4})/$', views.year_archive, name='year'```
+Valid URL | ```/articles/2016/```
+Captures | ```{'year': '2016'}```
+
+
+| |**Year / Month**
+-----|-------
+Regex | ```(?P<year>[0-9]{4})/(?P<month>[0-9]{2})```
+Example | ```url('r^articles/(?P<year>[0-9]{4})/(?P<month>[0-9]{2})/$', views.month_archive, name='month')```
+Valid URL | ```/articles/2016/01```
+Captures | ```{''year': '2016'; 'month': '01'}```
+
 
 
 
