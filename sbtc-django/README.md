@@ -19,8 +19,8 @@ The Tutorials Seires has sevens (7) parts, named:
 
 __Part 1 - Getting Started__
 
-Started in 06/03/2019 - Enviroment, python, django, etc...
-Finished in 06/03
+<Started in 06/03/2019> - Enviroment, python, django, etc... 
+<Finished in 06/03>
 
 Talked about the configuration system (I've adapted it to my self), creating the project and app (different comands), the initial folder and source structures. Something about the files and configuration. How to dealing with url (requests, respones), ...
 
@@ -61,15 +61,15 @@ urlpatters = [
 
 __Part 2 - Fundamentals__
 
-Started in 06/03/2019 - Models, Views, Templates, Testing, and Admin
-Finished in 07/03
+<Started in 06/03/2019> - Models, Views, Templates, Testing, and Admin 
+<Finished in 07/03>
 
 Realy a lot of new and exciting things :) started with project requiremets, uml diagrams, models, migration of database, the API to dealing with models. Unit tests (need to check it more). Using templates to improve the views, static files and also the well know Bootstrap. To finish the Django Admin app and how to use it.
 
 __Part 3 - Advanced Concepts__
 
-Started in 07/03/2019 - URLs and Forms
-Finished in 11/03
+<Started in 07/03/2019> - URLs and Forms 
+<Finished in 11/03>
 
 A realy import thing here is the importance given to the test development practice. Every peace of new code on views and url scripts the author make a correlated test. The URL patterns was also detailed during this third part of the tutorial.
 
