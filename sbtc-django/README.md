@@ -9,8 +9,8 @@ The Tutorials Seires has sevens (7) parts, named:
 
 - [x] Part 1 - Getting Started
 - [x] Part 2 - Fundamentals
-- [ ] Part 3 - Advanced Concepts
-- [ ] Part 2 - Authentication
+- [x] Part 3 - Advanced Concepts
+- [ ] Part 4 - Authentication
 - [ ] Part 5 - Django ORM
 - [ ] Part 6 - Class-Based Views
 - [ ] Part 7 - Deployment
@@ -69,10 +69,31 @@ Realy a lot of new and exciting things :) started with project requiremets, uml 
 __Part 3 - Advanced Concepts__
 
 Started in 07/03/2019 - URLs and Forms
+Finished in 11/03
 
 A realy import thing here is the importance given to the test development practice. Every peace of new code on views and url scripts the author make a correlated test. The URL patterns was also detailed during this third part of the tutorial.
 
-It also talked about Reusable Templates
+It also talked about Reusable Templates. I continuing in the tutorial with the forms content. The csrf_token to dealing with forms is interesting also. The wrong (manual way) and te right way (builtin app) was clarifing. The test procedures became bigger but also important.
+
+The Forms API changed all the way and makes a lot of hard work with validation, interaction and communicatino job much more efficient and secure.
+
+Important command to install django-widget-tweaks
+
+```
+pip install django-widget-tweaks
+```
+and add in settings app section
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    ...
+    'django.contrib.staticfiles',
+
+    'widget_tweaks',
+
+    'boards',
+]
+```
 
 Example of some urlpatters and regex (much more one: [URL Patterns](https://simpleisbetterthancomplex.com/references/2016/10/10/url-patterns.html))
 
@@ -127,7 +148,8 @@ Captures | ```{''year': '2016'; 'month': '01'}```
 
 
 
-__Part 2 - Authentication__
+__Part 4 - Authentication__
+Started in 12/03
 
 __Part 5 - Django ORM__
 
