@@ -9,6 +9,7 @@ from .forms import NewTopicForm
 # Create your tests here.
 
 class HomeTests(TestCase):
+
     def setUp(self):
         self.board = Board.objects.create(name='Django', description='Django board.')
         url = reverse('home')
@@ -27,6 +28,7 @@ class HomeTests(TestCase):
 
 
 class BoardTopicsTests(TestCase):
+
     def setUp(self):
         Board.objects.create(name='Django', description='Django board.')
 
@@ -57,6 +59,7 @@ class BoardTopicsTests(TestCase):
 
 
 class NewTopicTests(TestCase):
+    
     def setUp(self):
         Board.objects.create(name='Django', description='Django board.')
         User.objects.create_user(username='john', email='john@doe.com', password='123')

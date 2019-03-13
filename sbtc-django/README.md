@@ -149,7 +149,7 @@ Captures | ```{''year': '2016'; 'month': '01'}```
 
 
 __Part 4 - Authentication__
-<Started on 12/03> 
+<Started on 13/03> 
 
 __Part 5 - Django ORM__
 
