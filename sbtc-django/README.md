@@ -156,7 +156,11 @@ This part four  was really intense about tests, actually doubled the total numbe
 
 It's totally good to think on the accounts as an app, theres a lot of small, detailed, and important things related to it, in an unique way. The project become really complexe, fragmented and detailed. It's a chalange to mantain without any documentatino and business rules.
 
+
 __Part 5 - Django ORM__
+<Started on 15/03> - 
+<Finished on 15/03>
+
 
 __Part 6 - Class-Based Views__
 
