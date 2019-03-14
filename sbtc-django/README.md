@@ -149,7 +149,12 @@ Captures | ```{''year': '2016'; 'month': '01'}```
 
 
 __Part 4 - Authentication__
-<Started on 13/03> 
+<Started on 13/03> - Sign Up and dealing with users, password, reset, etc... 
+<Finished on 14/03>
+
+This part four  was really intense about tests, actually doubled the total number of tests. The login and password reset thing could be done almost by the auth API, especially the views. It is good.
+
+It's totally good to think on the accounts as an app, theres a lot of small, detailed, and important things related to it, in an unique way. The project become really complexe, fragmented and detailed. It's a chalange to mantain without any documentatino and business rules.
 
 __Part 5 - Django ORM__
 
