@@ -71,7 +71,7 @@ __Part 3 - Advanced Concepts__
 <Started on 07/03/2019> - URLs and Forms 
 <Finished on 11/03>
 
-A realy import thing here is the importance given to the test development practice. Every peace of new code on views and url scripts the author make a correlated test. The URL patterns was also detailed during this third part of the tutorial.
+A really import thing here is the importance given to the test development practice. Every peace of new code on views and url scripts the author make a correlated test. The URL patterns was also detailed during this third part of the tutorial.
 
 It also talked about Reusable Templates. I continuing in the tutorial with the forms content. The csrf_token to dealing with forms is interesting also. The wrong (manual way) and te right way (builtin app) was clarifing. The test procedures became bigger but also important.
 
@@ -152,14 +152,18 @@ __Part 4 - Authentication__
 <Started on 13/03> - Sign Up and dealing with users, password, reset, etc... 
 <Finished on 14/03>
 
-This part four  was really intense about tests, actually doubled the total number of tests. The login and password reset thing could be done almost by the auth API, especially the views. It is good.
+This part four was intense about tests, actually doubled the total number of tests. The login and password reset thing could be done almost by the auth API, especially the views. It is good.
 
-It's totally good to think on the accounts as an app, theres a lot of small, detailed, and important things related to it, in an unique way. The project become really complexe, fragmented and detailed. It's a chalange to mantain without any documentatino and business rules.
+It's totally ok to think on the accounts as an app, there are a lot of small, detailed, and important things related to it, in a unique way. The project became fragmented and complicated. It's a challenge to maintain without any documentation and business rules.
 
 
 __Part 5 - Django ORM__
-<Started on 15/03> - 
+<Started on 15/03> - Protecting views, topics listing, Django ORM, migrations...
 <Finished on 15/03>
+
+As usual, the same as the last days, this part was really intense too. Too many concepts were presented about the framework and new functionalities. To protect the views was used a decorator (I need to learn more about this concept).
+
+A lot of increment in the templates, views and also a little one in the models were done. The QuerySets was presented as a quite useful tool for dealing with objects in the DB.
 
 
 __Part 6 - Class-Based Views__
