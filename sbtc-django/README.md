@@ -167,6 +167,15 @@ A lot of increment in the templates, views and also a little one in the models w
 
 
 __Part 6 - Class-Based Views__
+<Started on 18/03> - Class Based Views, Pagination, Markdown ...
+<Finished on 18/03>
+
+About the Views strategies is important to reinforce the three types of views: Function-Based Views (FBV), Class-Based Views (CBV), and Generic Class-Based Views (GCBV). Each one with it's own importance and applications.
+
+
+
+
+
 
 __Part 7 - Deployment__
 
