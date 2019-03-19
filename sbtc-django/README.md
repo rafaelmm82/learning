@@ -168,15 +168,16 @@ A lot of increment in the templates, views and also a little one in the models w
 
 __Part 6 - Class-Based Views__
 <Started on 18/03> - Class Based Views, Pagination, Markdown ...
-<Finished on 18/03>
+<Finished on 19/03>
 
 About the Views strategies is important to reinforce the three types of views: Function-Based Views (FBV), Class-Based Views (CBV), and Generic Class-Based Views (GCBV). Each one with it's own importance and applications.
 
-
-
-
+During this part we could make some content update, listing the vies with a lot of contents like the topics view and posts view. Markdown editing was also amazing, humanizing and Gravatar conclude the basics stuff dealing with people and web systems. There is a lot of but for the basics I think that everything is realy good.
 
 
 __Part 7 - Deployment__
+<Started on 19/03> - Deployment
+<Finished on 20/03>
+
 
 
