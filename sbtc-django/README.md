@@ -177,7 +177,10 @@ During this part we could make some content update, listing the vies with a lot 
 
 __Part 7 - Deployment__
 <Started on 19/03> - Deployment
-<Finished on 20/03>
+<Finished on 19/03>
 
 
+The last part was just about how to deploy the entire app over a server and connect it with a real DB and email server, get things secure with certifications, create a flow of source control, testing and put in production. It wi'll help us in our project but in a further moment.
+
+Really great one tutorial that could be renamed as a Course. Thanks a lot to the Author.
 
