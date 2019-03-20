@@ -10,10 +10,10 @@ The Tutorials Seires has sevens (7) parts, named:
 - [x] Part 1 - Getting Started
 - [x] Part 2 - Fundamentals
 - [x] Part 3 - Advanced Concepts
-- [ ] Part 4 - Authentication
-- [ ] Part 5 - Django ORM
-- [ ] Part 6 - Class-Based Views
-- [ ] Part 7 - Deployment
+- [x] Part 4 - Authentication
+- [x] Part 5 - Django ORM
+- [x] Part 6 - Class-Based Views
+- [x] Part 7 - Deployment
 
 ## Few comments
 
