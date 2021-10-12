@@ -8,3 +8,4 @@ A list of each resource and their description following the directory structure:
 * __datacamp__ - Final projects of each course from datacamp.com site
 * __DLclass__ - assignments, projects and exercises of Deep Learning Classroom
 * __ThinkStats2__ - Self study exercises from Allen B. Downey boot Think Stats 2Ed
+* __tinypp__ - Check some projects of Tiny Python Projects book, to apply in the programming course to students
