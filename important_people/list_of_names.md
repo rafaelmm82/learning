@@ -1,0 +1,1 @@
+- John Tukey, statistics, EDA, bit, software, algorithms
